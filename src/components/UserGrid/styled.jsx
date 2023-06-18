@@ -11,7 +11,6 @@ export const Row = styled(Box)(({ theme, head }) => ({
   alignItems: 'center',
   justifyContent: 'space-evenly',
   fontSize: '14px',
-  borderRadius: '4px',
   borderBottom: '2px solid #ffb691',
   gap: '8px'
 }))

@@ -5,11 +5,7 @@ import { Row, RowItem } from "./styled";
 export default function GridContent() {
 
   return (
-    <Grid container columns={{
-      xs: 4,
-      sm: 8,
-      md: 12
-    }} gap="6px">
+    <Grid container gap="6px">
 
       <Row head>
         <RowItem>
